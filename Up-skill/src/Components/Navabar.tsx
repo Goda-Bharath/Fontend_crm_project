@@ -11,7 +11,7 @@ function Navabar() {
 
     return (
         <div className="bg-white w-full">
-            <nav className="sticky z-50 bg-white to-cyan-700/80 after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-cyan-400/40 shadow-lg w-320">
+            <nav className="sticky z-50 bg-white to-cyan-700/80 after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-cyan-400/50 shadow-lg w-320">
                 <div className="mx-auto max-w-7xl px-6 sm:px-6 lg:px-8">
                     <div className="relative flex h-22 items-center justify-between">
                         <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
