@@ -15,7 +15,7 @@ function Learners() {
     <div className="p-6 bg-gray-50 min-h-screen">
      
       <div className="flex items-center justify-between mb-4">
-          <span className="p-2 bg-blue-100 rounded-md text-blue-600">  <FaSearch /> </span>
+          <span className="p-2 bg-blue-100 rounded-md text-blue-600"><FaSearch /></span>
         <h2 className="text-xl font-semibold text-black mr-195">All Learners</h2>
         <div className="flex gap-2">
           <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md border px-4 py-2 rounded-md text-black "> 

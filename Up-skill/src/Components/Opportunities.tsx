@@ -71,7 +71,7 @@ function Opportunities() {
             </thead>
           </table>
         </div>
-        <div className="flex gap-2 mt-4">
+        <div className="flex gap-2 mt-5">
           <button className="border px-4 py-2 rounded-md flex items-center gap-1 border px-4 py-2 rounded-md text-black hover:bg-blue-500 hover:text-white">
             ✏️ Edit Columns
           </button>
