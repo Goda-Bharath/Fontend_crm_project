@@ -9,7 +9,6 @@ import Courses from './Components/Courses'
 import Trainers from './Components/Trainers'
 import Tasks from './Components/Tasks'
 import CampaignTable from './Components/Campaignstable'
-import { BrowserRouter as Router } from "react-router-dom"
 import PersonDetails from './Components/PersonDetails'
 import Dashboard from './Components/Dashboard'
 import PersonWhats from './Components/PersonWhats'
