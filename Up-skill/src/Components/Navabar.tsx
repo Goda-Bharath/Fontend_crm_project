@@ -4,10 +4,10 @@ import { FaMeta } from "react-icons/fa6";
 import { GiMeat } from "react-icons/gi";
 import { Link } from "react-router-dom";
 
-
 function Navabar() {
 
     const [mobileOpen, setMobileOpen] = useState(false);
+    const [Open, setopen] = useState(false);
 
     return (
         <div className="bg-white w-full">
@@ -56,20 +56,19 @@ function Navabar() {
                                     <Link to="courses-data" className="block rounded-md px-1 py-3 m-1"><span className="text-black hover:border-b-4 hover:border-purple-600 pl-2 ">Courses</span></Link>
                                     <Link to="trainers-data" className="block rounded-md px-3 py-3 m-1 "><span className="text-black hover:border-b-4 hover:border-purple-600 pl-2" >Trainers</span></Link>
                                     <Link to="tasks-data" className="block rounded-md my-1 py-3 m-1"><span className="text-black hover:border-b-4 hover:border-purple-600 pl-2" id="u">Tasks</span></Link>
-                                      <div className="flex items-center space-x-4 pl-10">
+                                      <div className="flex items-center space-x-4 pl-10 ">
                                         <Link to="search-bar">
                                             <FaSearch className="text-black m-4 cursor-pointer text-[27px]" />
                                         </Link>
-                                        <FaMobileAlt className="text-black  cursor-pointer text-[27px] " />
-                                        <FaEnvelope className="text-black mr-5 cursor-pointer text-[27px]" />
-                                        <FaWhatsapp className="text-black mr-5 cursor-pointer text-[27px]" />
+                                        <FaMobileAlt className="text-black cursor-pointer text-[27px] " />
+                                      <Link to='contact-page'>
+                                        <FaEnvelope className="text-black mr-5 mx-4 cursor-pointer text-[27px]" />
+                                      </Link>
+                                        <FaWhatsapp className="text-black mr-1  cursor-pointer text-[27px]" />
                                     </div>
                                 </div>
-                                
-
                             </div>
                         </div>
-
                         <div className="absolute inset-y-0 right-0 flex items-center pr-4 sm:static sm:inset-auto sm:ml-6 sm:pr-0 ">
 
                             <div className="relative ml-3">

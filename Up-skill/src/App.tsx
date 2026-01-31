@@ -13,11 +13,11 @@ import PersonDetails from './Components/PersonDetails'
 import Dashboard from './Components/Dashboard'
 import PersonWhats from './Components/PersonWhats'
 import Searchbar from './Components/searchbar'
+import Footer from './Components/contact'
 function App() {
   return (
     <div>
       <Navabar />
-       
       <Routes>
         <Route path='/' element={<Dashboard/>}></Route>
         <Route path='/campaigns-data' element={<Campaigns />}></Route>
@@ -31,6 +31,7 @@ function App() {
         <Route path='/trainers-data' element={<Trainers />}></Route>
         <Route path='/tasks-data' element={<Tasks />}></Route>
         <Route path='//Campaignstable/:id' element={<CampaignTable />}></Route>
+        <Route path='/contact-page' element={<Footer />}></Route>
       </Routes>
     </div>
   )
