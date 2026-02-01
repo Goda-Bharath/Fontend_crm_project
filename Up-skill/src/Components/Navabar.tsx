@@ -64,7 +64,11 @@ function Navabar() {
                                       <Link to='contact-page'>
                                         <FaEnvelope className="text-black mr-5 mx-4 cursor-pointer text-[27px]" />
                                       </Link>
-                                        <FaWhatsapp className="text-black mr-1  cursor-pointer text-[27px]" />
+                                       <div>
+                                         { aria-expanded={Open}
+                                          onclick={() => Open(!setopen)}}
+                                          <FaWhatsapp className="text-black mr-1  cursor-pointer text-[27px]" />
+                                       </div>
                                     </div>
                                 </div>
                             </div>
