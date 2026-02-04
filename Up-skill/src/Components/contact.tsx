@@ -1,8 +1,9 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Link } from "react-router-dom";
 function Footer() {
   const form = useRef(null);
+const [Open, setOpen] = useState(false);
 
   const sendEmail = (e: any) => {
     e.preventDefault();
