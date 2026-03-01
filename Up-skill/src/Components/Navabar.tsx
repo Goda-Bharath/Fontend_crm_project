@@ -47,7 +47,7 @@ function Navabar() {
 
                   <div className="flex items-center space-x-4 pl-10 ">
                     <Link to="search-bar">
-                      <FaSearch className="text-black m-4 cursor-pointer text-[27px] " />
+                       <input className="text-black border-black-600 border" type="text" placeholder="Search for......"></input>
                     </Link>
                     <FaMobileAlt className="text-black cursor-pointer text-[27px] " />
                     <Link to="contact-page">
