@@ -19,8 +19,9 @@ This project helped me improve my skills in React, component structuring, and fr
  Search and filter functionality
  Interactive UI components
  Responsive design for different devices
-
+ 
 Technologies Used
+Frontend stack
 
  React (Vite)
  Tailwind CSS
